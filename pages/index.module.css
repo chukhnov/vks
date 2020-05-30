@@ -1,0 +1,51 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 100px;
+  height: 46px;
+}
+
+.carousel-container-img {
+  position: relative;
+  background-color: black;
+}
+
+.carousel-logo {
+  position: absolute;
+  top: 40%;
+  width: 200px;
+  height: 93px;
+}
+
+.carousel-logo-left {
+  left: 15%;
+}
+
+.carousel-logo-right {
+  right: 15%;
+}
+
+.carousel-img {
+  background-size: contain !important;
+  height: 500px;
+}
+
+.carousel-img-left {
+  background-position: left !important;
+}
+
+.carousel-img-right {
+  background-position: right !important;
+}
