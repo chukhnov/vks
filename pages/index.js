@@ -6,6 +6,7 @@ import logoImg from "../public/vks-logo.png";
 import carouselImgFirst from "../public/carousel-img-first.png";
 import carouselImgSecond from "../public/carousel-img-second.png";
 import Slider from "react-slick";
+import Glasses from "./components/Glasses";
 
 const Home = () => {
   const settings = {
@@ -25,9 +26,9 @@ const Home = () => {
       <div className={styles.header}>
         <CardMedia image={logoImg} className={styles.logo} />
         <div>
-          <Button>Оплата и доставка</Button>
+          {/* <Button>Оплата и доставка</Button>
           <Button>Контакты</Button>
-          <Button>О нас</Button>
+          <Button>О нас</Button> */}
         </div>
       </div>
       <Slider {...settings}>
@@ -52,6 +53,7 @@ const Home = () => {
           />
         </div>
       </Slider>
+      <Glasses />
     </div>
   );
 };
