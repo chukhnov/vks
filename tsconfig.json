@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2017",
     "lib": [
-      "dom",
-      "dom.iterable",
+      "DOM",
+      "DOM.iterable",
       "esnext"
     ],
     "allowJs": true,
@@ -22,6 +22,7 @@
     "node_modules"
   ],
   "include": [
+    "pages",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"

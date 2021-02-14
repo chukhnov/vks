@@ -7,6 +7,7 @@ import carouselImgFirst from "../public/carousel-img-first.png";
 import carouselImgSecond from "../public/carousel-img-second.png";
 import Slider from "react-slick";
 import Glasses from "./components/Glasses";
+import fetch from "isomorphic-unfetch";
 
 const Home = () => {
   const settings = {
@@ -25,11 +26,11 @@ const Home = () => {
       </Head>
       <div className={styles.header}>
         <CardMedia image={logoImg} className={styles.logo} />
-        <div>
-          {/* <Button>Оплата и доставка</Button>
+        {/* <div>
+          <Button>Оплата и доставка</Button>
           <Button>Контакты</Button>
-          <Button>О нас</Button> */}
-        </div>
+          <Button>О нас</Button>
+        </div> */}
       </div>
       <Slider {...settings}>
         <div className={styles["carousel-container-img"]}>
